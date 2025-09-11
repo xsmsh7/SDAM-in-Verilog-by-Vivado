@@ -25,3 +25,14 @@ dout 為有效輸出(avalid 和 dvalid 僅可以持續一個 scl 週期),且此
 - T9. 當時脈正緣時,Testbench 將 sda 設為 0 表示指令觸發,SDAM 開始
 執行下一筆指令動作。等同 T2。
 ![My Image](images/signal.png)
+
+# result
+## simulation                      
+會測試32筆資料(Pattern_sti.dat，通過顯示
+
+Congratulations! All data have been generated successfully!
+-------------------------PASS------------------------
+
+## synthesis
+expect netlist
+![My Image](images/netlist.png)
