@@ -28,10 +28,12 @@ dout 為有效輸出(avalid 和 dvalid 僅可以持續一個 scl 週期),且此
 
 # result
 ## simulation                      
-會測試32筆資料(Pattern_sti.dat，通過顯示
+simulation會測試32筆資料(Pattern_sti.dat)，console會顯示通過
 
 Congratulations! All data have been generated successfully!
+
 -------------------------PASS------------------------
+![My Image](images/simulation.png)
 
 ## synthesis
 expect netlist
